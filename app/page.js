@@ -7,7 +7,7 @@ export default function ContactDetails() {
         <main className="max-w-4xl mx-auto bg-white/10 p-8 rounded-xl shadow-lg backdrop-blur-lg border border-slate-500">
           <div className="flex flex-col items-center gap-4 mb-8">
             {/* Profile Image and Name */}
-            <div className="relative w-32 h-32 rounded-full overflow-hidden border-5 border-slate-700">
+            <div className="relative w-32 h-32 rounded-full overflow-hidden border-5 border-green-500 shadow-md">
               <Image
                 className="object-cover"
                 src="/image/Profile.jpg"
